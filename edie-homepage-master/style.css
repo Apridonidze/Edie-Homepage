@@ -1,0 +1,560 @@
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top:0px;
+}
+.bar-hambrug {
+    display: none;
+}
+.bar-toggle {
+    display: none;
+}
+.bar-left h1{
+    font-size: 26px;
+    margin:0;
+}
+.bar-right{
+    font: size 20px ;
+    display: flex;
+    gap:20px;
+}
+.bar-right a {
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+.bar-right :hover {
+    text-decoration: underline;
+}
+.header {
+    margin: auto;
+    align-items: center;
+    display: block;
+    padding: 15px 60px;    
+}
+.header img {
+    width: 100%;
+    margin: 20px 0px;
+    max-width: fit-content;
+}
+.header h3 {
+    font-size: 18px;
+    color: blue;
+}
+.header h1 {
+    width: 100%;
+    max-width: 460px;
+    font-size: 42px;
+    margin:0;
+    padding:10px 0px ;
+}
+.header-input {
+    display: block;
+    align-items: center; 
+}
+.email-container {
+    display: flex;
+    align-items: center;
+}
+.header-input label {
+    display:block;
+    color:grey;
+    font-size: 20px;
+}
+.header h4 {
+    font-size: 16px;
+    color: grey;
+    width: 100%;
+    max-width: 360px;
+}
+.header-input {
+    margin-top: 40px;
+    padding-left: 80px;
+}
+.header-input input{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 280px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.header-input button {
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    max-width: 60px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.header :is(h1,h3,h4) {
+    padding-left: 80px;
+}
+.email-container {
+    display: flex;
+    align-items: center;
+}
+.services {
+    display: block;
+    align-items: center;
+    padding: 10px 40px;
+}
+.services h1 {
+    font-size: 32px;
+}
+.services-container {
+    display: flex;
+    align-items: center;
+    gap:40px;
+    margin: auto;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.services1 h1{
+    margin: 0;
+    font-size: 32px;
+}
+.services1 {
+    display: block;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+.services1 h3 {
+    font-size: 16px;
+    color: grey;
+    width: 100%;
+    max-width: 300px;
+}
+.services1 button {
+    background-color:rgb(208, 208, 208);
+    color: rgb(81, 80, 80);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#myBtn {
+    background-color: grey;
+    color: white;
+}
+#myBtn :hover{
+    background-color:blue;
+    color: white;
+}
+.services1 i {
+    font-size: 42px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+.our-works {
+    display: block;
+    align-items: center;
+    padding: 40px 60px;
+}
+.our-works h1 {
+    padding: 0px 10px;
+    font-size: 32px;
+    margin: 0;
+}
+.our-works img {
+    width: 400px;
+    border-radius: 15px;
+}
+.works-line1 {
+    padding: 20px 0px;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.work1 {
+    display: block;
+    align-items: center;
+    text-align: left;
+    margin-top: 120px;
+}
+.work1 h1 {
+    margin: 0;
+}
+.seeMore {
+    display: flex;
+    align-items: center;
+    float: right;
+    gap: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.seeMore :hover {
+    text-decoration: underline;
+}
+.clients {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.clinets-left h3 {
+    font-size: 18px;
+    color: rgb(174, 0, 0);
+    margin: 0;
+}
+.clinets-left h1 {
+    font-size: 42px;
+    width: 100%;
+    max-width: 360px;
+    margin: 0;
+    padding-top: 20px;
+}
+.clinets-left h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 400px;
+    color: grey;
+}
+.clinets-right img {
+    width: 300px;
+    border-radius: 15px;
+}
+.clinets-right {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+.images-left {
+    padding-right: 20px;
+    display: block;
+}
+.images-right {
+    display: block;
+    align-items: center;
+}
+.images-right img {
+    display:block;
+    padding-bottom: 20px;
+}
+.feedback {
+    display: block;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 740px;
+    font-size: 20px;
+}
+.feedback img {
+    width: 60px;
+    border-radius: 15px;
+}
+.feedback-footer {
+    display: flex;
+    align-items: center;
+}
+.feedback-right {
+    margin:0;
+    padding-left: 10px;
+}
+.feedback-right :is(h3,h4) {
+    margin: 0;
+    font-size: 16px;
+}
+.feedback-right h3 {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.feedback-right h4 {
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px 60px;
+    background-color:rgb(0, 0, 54) ;
+    color: white;
+}
+.contacta a{
+    display:block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.contacta  :hover{
+    text-decoration: underline;
+}
+.contact1 h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 22px;
+    text-decoration: left;
+}
+.footerEmail-container {
+    display: flex;
+    align-items: center;
+}
+.footerEmail-container input {
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+}
+.footerEmail-container button {
+    cursor: pointer;
+    width: 100px;
+    position: relative;
+    left:-101px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+#creator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 190px;
+    color: white;
+}
+#creator span {
+    text-decoration: underline;
+    padding: 0px 5px;
+    font-weight: bolder;
+}
+button :hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+@media(max-width:480px){
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .bar {
+        padding: 15px 20px;
+        font-size: 42px;
+    }
+    .bar-hambrug {
+        font-size: 28px;
+    }
+    .bar-right {
+        display: none;
+    }
+    .bar-hambrug {
+        display: flex;
+    }
+    .bar-toggle {
+        display:none;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0px;
+        top:0px;
+        overflow: visible;
+    }
+    .header {
+        text-align: center;
+        padding: 10px;
+    }
+    .header :is(h1,h2,h3,h4){
+        padding: 0px;
+    }
+    .header h1 {
+        font-size: 28px;
+    }
+    .header img {
+        width: 100%;
+        max-width: fit-content;
+    }
+    .header-input{
+        padding: 0px;
+    }
+    .services {
+        padding: 10px;
+    }
+    .services-container {
+        display: block;
+    }
+    .services-container i {
+        font-size: 32px;
+    }
+    .our-works {
+        padding: 0px;
+    }
+    .our-works h1 {
+        padding: 0px;
+        margin: 0px;
+    }
+    .our-works img {
+        margin: 0px;
+        width: 90%;
+    }
+
+    .works-line1 {
+        margin: 0px;
+        display: block;
+    }
+    .work1 {
+        padding: 40px 5px;
+    }
+    .clients {
+        margin-top: 10px;
+        display: block;
+        padding: 10px;
+    }
+    .clients img {
+        width: 100%;
+    }
+    .feedback h1 {
+        font-size: 20px;
+    }
+    .feedback {
+        display:block;
+        padding: 10px;
+    }
+    .footer {
+        display: block;
+        padding: 10px;
+    }
+    .contact1 {
+        display: none;
+    }
+    #creator {
+        display: none;
+    }
+    .bar-toggle {
+        overflow: hidden;
+        background-color: white;
+        color: black;
+        height: 105vh;
+        position: absolute;
+        top: 0px;
+        align-items: start;
+        display: flex;
+        justify-content: space-between;
+        overflow-y: hidden;
+
+    }
+    .toggle-right a{
+        display:block;
+        font-size: 32px;
+        text-decoration: underline;
+        color: black;
+    }
+    .toggle-left {
+        display:block;
+        font-size: 42px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .seeMore {
+        display: flex;
+        align-items: center;
+        float: left;
+        gap: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        color: blue;
+        justify-content: center;
+    }
+    .works-line1 {
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .work2 {
+        padding: 0px;
+        margin: 0px;
+        margin: 15px 0px;
+    }
+    .work1 {
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        margin: 15px 0px;
+    }
+    .our-works {
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .services {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .services div {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .feedback {
+        padding: 0px;
+        margin: 0px;
+    }
+    .feedback h1 {
+        font-size: 14px;
+        width:100%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center  ;
+    }
+    .services1 {
+        margin: 20px 0px;
+    }
+    .header-input {
+        padding: 0px;
+        margin: 0px;
+    }
+    .clinets-right {
+        padding: 0px;
+        margin: 0px;
+    }
+    .cline  img {
+        padding: 0px;
+        margin: 0px;
+    }
+}
